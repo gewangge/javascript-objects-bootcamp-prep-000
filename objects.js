@@ -4,6 +4,8 @@ var playlist = {
   lone: 'Airglow Fires'
 }
 
-function updatePlaylist(object, nameOfArtist, songTitle) {
-  
+function updatePlaylist(playlist, nameOfArtist, songTitle) {
+  playlist[nameOfArtist] = songTitle
+
+  return playlist
 }
