@@ -10,5 +10,3 @@ function updatePlaylist(playlist, nameOfArtist, songTitle) {
 }
 
 var newPlaylist = updatePlaylist(playlist, flying_lotus, never_catch_me)
-
-console.log(newPlaylist);
