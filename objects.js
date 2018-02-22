@@ -4,12 +4,12 @@ var playlist = {
   lone: "Airglow Fires"
 }
 
-function updatePlaylist(object, nameOfArtist, songTitle) {
-  object[nameOfArtist] = songTitle
+function updatePlaylist(object, artistName, songTitle) {
+  object[artistName] = songTitle
   return object
 }
 
-function removeFromPlaylist(playlist, nameOfArtist) {
-  delete playlist.nameOfArtist;
-  return playlist
+function removeFromPlaylist(object, artistName) {
+  delete object.artistName
+  return object
 }
