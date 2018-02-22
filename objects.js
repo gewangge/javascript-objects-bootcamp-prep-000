@@ -8,3 +8,5 @@ function updatePlaylist(playlist, nameOfArtist, songTitle) {
   playlist[nameOfArtist] = songTitle
   return playlist
 }
+
+updatePlaylist(playlist, flying_lotus, never_catch_me)
