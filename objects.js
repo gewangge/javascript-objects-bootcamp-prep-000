@@ -9,4 +9,7 @@ function updatePlaylist(playlist, nameOfArtist, songTitle) {
   return playlist
 }
 
-var newPlaylist = updatePlaylist(playlist, flying_lotus, never_catch_me)
+function removeFromPlaylist(playlist, nameOfArtist) {
+  delete playlist.nameOfArtist
+  return playlist
+}
